@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info_deal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/info_deal_distance"
+        tools:text="Deal Title" />
+
+    <TextView
+        android:background="#fff"
+        android:id="@+id/info_deal_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="5.7 mi" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:background="#f0f"
+        android:id="@+id/info_deal_ratingBar"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_title" />
+
+    <TextView
+        android:background="#123"
+        android:id="@+id/info_deal_reviews_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_ratingBar"
+        tools:text="9 Reviews" />
+
+    <TextView
+        android:background="#237"
+        android:id="@+id/info_deal_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_distance"
+        tools:text="$ 123" />
+
+    <TextView
+        android:background="#753"
+        android:id="@+id/info_deal_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_reviews_number"
+        tools:text="123 address street, city, Egypt." />
+
+    <TextView
+        android:id="@+id/info_deal_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_address"
+        tools:text="Supermarket" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/info_deal_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_light_green_accent_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_deal_address"
+        tools:text="Open" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

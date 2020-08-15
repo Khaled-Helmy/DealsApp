@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">يلا ديلز</string>
+    <string name="RETRY">إعادة المحاولة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="action_settings">الإعدادت</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="best_deals">أفضل العروض</string>
+    <string name="best_review_deals">أفضل تقييمات للعروض</string>
+    <string name="best_reviews">أحسن تقييم للعروض</string>
+    <string name="close_button">أغلق</string>
+    <string name="confirm_password">أعد كتابة الباسورد</string>
+    <string name="daily_deals">العروض اليومية</string>
+    <string name="e_mail">البريد الﻹلكترونى</string>
+    <string name="email">البريد اﻹلكترونى</string>
+    <string name="enter_email_error">أدخل البريد الﻹلكترونى</string>
+    <string name="enter_pass_error">أدخل الباسورد</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="get_started">أبدأ</string>
+    <string name="google">جوجل</string>
+    <string name="last_name">اﻹسم اﻷخير</string>
+    <string name="less">أقل</string>
+    <string name="location">الموقع</string>
+    <string name="login_password">كلمة المرور</string>
+    <string name="new_deals">العروص الجديدة</string>
+    <string name="new_user">مستخدم جديد؟</string>
+    <string name="next">التالى</string>
+    <string name="no_deal">لا عروض</string>
+    <string name="no_internet_connection">لا يوجد انترنت</string>
+    <string name="no_result">لا نتائج</string>
+    <string name="or_you_can_sign_in_via">أو يمكنك أن تسجل من:</string>
+    <string name="password">كلمة السر</string>
+    <string name="name">الإسم الكامل</string>
+    <string name="phone_number">رقم المحمول</string>
+    <string name="quantity">الكمية</string>
+    <string name="s_i_g_n_i_n">تسجيل الدخول</string>
+    <string name="search">بحث</string>
+    <string name="select_your_date">اختر تاريخ ميلادك</string>
+    <string name="share_this_deals_with_your_friends_via">شارك هذا العرض مع اصدقائك</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_up">سجل الان</string>
+    <string name="try_again">حاول لاحقا</string>
+    <string name="your_balance">رصيدك</string>
+    <string name="add_new_address">أضف عناون جديد</string>
+    <string name="address">العنوان</string>
+    <string name="after_coupon_discount">بعد كوبون الخصم</string>
+    <string name="apartment_number">رقم الشقة</string>
+    <string name="available_">متاح</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="building_number">رقم المبنى</string>
+    <string name="charge">إشحن</string>
+    <string name="city_name">المدينة</string>
+    <string name="coupon_code">كود الكوبون</string>
+    <string name="email_or_phone_number">البريد الاكترونى او رقم الهاتف</string>
+    <string name="enter_apartment">شقة</string>
+    <string name="enter_building">مبنى</string>
+    <string name="enter_new_address">أدخل عنوان جديد</string>
+    <string name="enter_your_address">أدخل عنوانك</string>
+    <string name="enter_your_email">أدخل البريد الإلكترونى</string>
+    <string name="enter_your_name">اللإسم</string>
+    <string name="enter_your_phone">الهاتف</string>
+    <string name="eth_balance">رصيدك</string>
+    <string name="floor_number">الدور</string>
+    <string name="gender">الجنس</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="if_you_need_to_add_new_address_please_click_here">إضغط هنا للإضافة عنوان اخر</string>
+    <string name="it_will_be_expired_in_24_hours">سارى لمدة 24 ساعة فقط</string>
+    <string name="mobile">الهاتف</string>
+    <string name="pay">الدفع</string>
+    <string name="postal_code">الرمز البريدى</string>
+    <string name="pound" translatable="false">جنيه</string>
+    <string name="select_your_birth_date">اختر تاريخ ميلادك</string>
+    <string name="street_name">الشارع</string>
+    <string name="yalla_dealz_wallet">المحفظة</string>
+    <string name="your_payment_code_is">كود الدفع الخاص بك</string>
+    <string name="update">تعديل</string>
+    <string name="total_price">المبلغ الاجمالى</string>
+    <string name="menu_gallery" translatable="false">المعرض</string>
+    <string name="menu_home" translatable="false">الرئيسية</string>
+    <string name="menu_send">إرسال</string>
+    <string name="menu_share">شارك</string>
+    <string name="menu_slideshow">عرض</string>
+    <string name="menu_tools">اﻷدوات</string>
+    <string name="ok">حسنا</string>
+    <string name="password_size_error" translatable="false">كلمة السر لايمكن أن تكون أقل من 6 أحرف</string>
+    <string name="pay_with_cash">الدف نقدا</string>
+    <string name="pay_with_visa">الدفع بالفيزا</string>
+    <string name="phone">الهاتف</string>
+    <string name="receive">إستقبال</string>
+    <string name="search_deals" translatable="false">بحث العروض</string>
+    <string name="second_name" translatable="false">الاسم الاخير</string>
+    <string name="send" translatable="false">إرسال</string>
+    <string name="submit" translatable="false">إرسال</string>
+    <string name="title_cart">السلة</string>
+    <string name="title_categories">اﻷقسام</string>
+    <string name="title_dashboard" translatable="false">لوحة التحكم</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_notifications">اﻹشعارات</string>
+    <string name="title_profile">الملف الشخصي</string>
+    <string name="title_search">بحث</string>
+    <string name="top_deals">أفضل العروض</string>
+    <string name="valid_email_error">البريد اﻹلكتروني غير صالح</string>
+    <string name="verified" translatable="false">تم التحقق</string>
+    <string name="whoops" translatable="false">حدث خطأ</string>
+    <string name="a_z">أ-ي</string>
+    <string name="add_to_wishlist">إضافة إلي الرغبات</string>
+    <string name="appartment_amp_unit">عقار / وحدة</string>
+    <string name="available">متاح</string>
+    <string name="balance">الرصيد</string>
+    <string name="cart">السلة</string>
+    <string name="category">الفئة</string>
+    <string name="checkout">الدفع</string>
+    <string name="description">الوصف</string>
+    <string name="details">التفاصيل</string>
+    <string name="discount">الخصم:</string>
+    <string name="min_price">أقل سعر</string>
+    <string name="no_reviews">لا يوجد تقييمات</string>
+    <string name="points">النقاط</string>
+    <string name="price_high">اﻷعلي سعرا</string>
+    <string name="price_low">اﻷقل سعرا</string>
+    <string name="rating_high">أعلي تقييم</string>
+    <string name="rating_low">أقل تقييم</string>
+    <string name="see_more">المزيد</string>
+    <string name="sort">تصنيف</string>
+    <string name="total">المجموع:</string>
+    <string name="type_keyword">أدخل كلمة بحث</string>
+    <string name="wish_list">قائمة الرغبات</string>
+    <string name="yalla_dealz">يلا ديلز</string>
+    <string name="z_a">ي-أ</string>
+</resources>

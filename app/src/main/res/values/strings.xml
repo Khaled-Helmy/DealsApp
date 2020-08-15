@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">YallaDealz</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="product_image" translatable="false">Product Image</string>
+    <string name="login_logo" translatable="false">Login Logo</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="login_password">PASSWORD</string>
+    <string name="s_i_g_n_i_n">S I G N I N</string>
+    <string name="new_user">New user?</string>
+    <string name="search_button" translatable="false">Search button</string>
+    <string name="search_deals">Search deals</string>
+    <string name="close_button">Close button</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="long_lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="add_to_wishlist">ADD TO WISHLIST</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="lorem_small" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="quantity">Quantity</string>
+    <string name="share_this_deals_with_your_friends_via">Share this deals with your friends via</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="daily_deals">Daily deals</string>
+    <string name="new_deals">New Deals</string>
+    <string name="yalla_dealz">Yalla Deals</string>
+    <string name="best_reviews">Best Reviews Deals</string>
+    <string name="name">Full name</string>
+    <string name="best_deals">Best Deals</string>
+    <string name="see_more">See more</string>
+    <string name="less">Less</string>
+    <string name="location">Location</string>
+    <string name="filter" translatable="false">Filter</string>
+    <string name="filter_by_category" translatable="false">Filter by Category</string>
+    <string name="enter_email_error">Enter your email</string>
+    <string name="enter_pass_error">Enter your password</string>
+    <string name="valid_email_error">The email is not valid</string>
+    <string name="password_size_error">password can\'t be less than 6 characters</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="receive">Receive</string>
+    <string name="facebook_app_id" translatable="false">232332534303433</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb232332534303433</string>
+    <string name="or_you_can_sign_in_via">Or you can sign in via:</string>
+    <string name="request_default_web_client_id" translatable="false">749770075751-fvdgp9i05v0bvi9bkbebidf5dmrflph9.apps.googleusercontent.com</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_profile">Profile</string>
+    <string name="top_deals">Top Deals</string>
+    <string name="best_review_deals">Best Review deals</string>
+    <string name="RETRY">Retry</string>
+    <string name="no_internet_connection">No internet connections found. Check your connection or try again</string>
+    <string name="whoops">Whoops!</string>
+    <string name="try_a_more_general_keyword" translatable="false">Try a more general keyword</string>
+    <string name="no_result">No result</string>
+    <string name="no_deal">No deal</string>
+    <string name="try_again">Try again later.</string>
+    <string name="pound">EGP</string>
+    <string name="title_cart">Cart</string>
+    <string name="last_name">Last name</string>
+    <string name="select_your_date">Select Your Birth Date</string>
+    <string name="title_activity_visa" translatable="false">VisaActivity</string>
+    <string name="error_player" translatable="false">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBRizBdTo6_VZ3JJIYlZ8_vOkNIry5x-Vo</string>
+    <string name="permission_required_toast" translatable="false">Location permission is required for this demo.</string>
+    <string name="permission_rationale_location" translatable="false">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied" translatable="false">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="verified">Verified !</string>
+    <string name="deal_activity" translatable="false">Deal Activity</string>
+    <string name="gps_is_loading" translatable="false">GPS is loading...</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="building_number">building number</string>
+    <string name="apartment_number">apartment number</string>
+    <string name="update">Update</string>
+    <string name="your_payment_code_is">Your payment code is</string>
+    <string name="it_will_be_expired_in_24_hours">It will be expired in 24 hours</string>
+    <string name="ok">OK</string>
+    <string name="available_">Available !</string>
+    <string name="total_price">Total Price</string>
+    <string name="after_coupon_discount">After Coupon Discount</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="charge_money" translatable="false">Charge money</string>
+    <string name="charge">Charge</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_phone">Enter your phone</string>
+    <string name="city_name">City Name</string>
+    <string name="street_name">Street Name</string>
+    <string name="floor_number">Floor number</string>
+    <string name="postal_code">Postal code</string>
+    <string name="product_title" translatable="false">Product Title</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="address">Address</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="mobile">Mobile</string>
+    <string name="select_your_birth_date">Select your birth date</string>
+    <string name="if_you_need_to_add_new_address_please_click_here">If you need to add new address, please click here</string>
+    <string name="enter_new_address">Enter new address</string>
+    <string name="enter_building">Enter Building</string>
+    <string name="enter_apartment">Enter Apartment</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="home">Home</string>
+    <string name="email_or_phone_number">Email or Phone number</string>
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="google">Google</string>
+    <string name="you_have_in_your_pocket_money" translatable="false">You have in your pocket money:</string>
+    <string name="pay">Pay</string>
+    <string name="you_can_charge_your_pocket_money" translatable="false">You can charge your pocket money</string>
+    <string name="yalla_dealz_wallet">Yalla Dealz Wallet</string>
+    <string name="eth_balance">Balance</string>
+    <string name="send">Send</string>
+    <string name="pay_with_cash">Pay with Cash</string>
+    <string name="pay_with_visa">Pay with Visa</string>
+    <string name="discount">Discount:</string>
+    <string name="no_reviews">No Reviews</string>
+    <string name="description">Description</string>
+    <string name="type_keyword">Type keyword</string>
+    <string name="category">Category</string>
+    <string name="min_price">Min Price</string>
+    <string name="max_price">Max Price</string>
+    <string name="sort">Sort</string>
+    <string name="search">Search</string>
+    <string name="appartment_amp_unit"><![CDATA[Appartment & Unit]]></string>
+    <string name="a_z">A-Z</string>
+    <string name="z_a">Z-A</string>
+    <string name="price_low">Price Low</string>
+    <string name="price_high">Price High</string>
+    <string name="rating_high">rating high</string>
+    <string name="rating_low">rating low</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="total">Total:</string>
+    <string name="cart">Cart</string>
+    <string name="wish_list">Wish List</string>
+    <string name="details">Details</string>
+    <string name="history">History</string>
+    <string name="available">Available</string>
+    <string name="points">Points</string>
+    <string name="balance">Balance</string>
+
+</resources>

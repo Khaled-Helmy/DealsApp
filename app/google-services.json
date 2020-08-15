@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "749770075751",
+    "firebase_url": "https://yalla-dealz-android-app.firebaseio.com",
+    "project_id": "yalla-dealz-android-app",
+    "storage_bucket": "yalla-dealz-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749770075751:android:fdcfca9cbb59013b",
+        "android_client_info": {
+          "package_name": "com.yalladealz.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74292506793-f4ka2ficgtt2dhd3j6rvitock836f9q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalladealz.userapp",
+            "certificate_hash": "813346463a942e4b97d0b3cc2e89c8cfb489bc8b"
+          }
+        },
+        {
+          "client_id": "749770075751-fqlh4d3vtjd0n30a5ra03a5jg0u1o7ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalladealz.userapp",
+            "certificate_hash": "5f65e181f62f592c4d17a3a74fcfaab7464906e5"
+          }
+        },
+        {
+          "client_id": "749770075751-s90u3ap3pn9hvnosi716com8hmcb8cs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalladealz.userapp",
+            "certificate_hash": "aa7ced606410952fec26ddd3d73cbf7029f460d9"
+          }
+        },
+        {
+          "client_id": "749770075751-fvdgp9i05v0bvi9bkbebidf5dmrflph9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE0S_jubj4vLI1w5_8tKlA3Rd488KHvPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749770075751-i8l5u5u5g09qcdnd57mq8sjsl7f6mh38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749770075751-taln1596bh7885mi72c9silf3ftuc4b7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yalladealz.YallaDealz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

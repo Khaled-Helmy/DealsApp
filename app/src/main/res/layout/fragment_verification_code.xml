@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.VerificationCode"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="83dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo2"
+                android:layout_marginBottom="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_mxlarge"
+                android:layout_marginBottom="@dimen/spacing_mxlarge"
+                android:text="A verification code has sent to your phone"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_60" />
+
+
+            <com.poovam.pinedittextfield.LinePinField
+                android:id="@+id/lineField"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="18sp"
+                app:highlightType="currentField"
+                android:textSelectHandle="@drawable/text_handle"
+                app:noOfFields="4"
+                app:distanceInBetween="10dp"
+                app:fieldColor="@color/colorPrimary"
+                app:highlightColor="#9E9E9E"
+                app:fieldBgColor="@color/green_900"
+                app:lineThickness="3dp"
+                app:isCustomBackground="false"
+                app:isCursorEnabled="false"
+                app:bottomTextPaddingDp="15dp"
+            />
+
+            <!--<androidx.appcompat.widget.AppCompatButton-->
+                <!--android:id="@+id/btn_sign_up"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="35dp"-->
+                <!--android:layout_height="@dimen/_30sdp"-->
+                <!--android:background="@drawable/rounfbtn"-->
+                <!--android:clickable="true"-->
+                <!--android:focusable="true"-->
+                <!--android:text="@string/submit"-->
+                <!--android:textColor="@android:color/white" />-->
+
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="Didn't get the code? Resend Code"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

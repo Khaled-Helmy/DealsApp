@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>mushafs</key>
+        <value>[{\"name\":\"kaloon\",\"pages\":604,\"arabicName\":\"مصحف رواية قالون عن نافع\",\"url\":\"http://www.alwa7y.com/keraat/kaloon/\",\"hasInfo\":true,\"infoPages\":91},{\"name\":\"bazzy\",\"pages\":604,\"arabicName\":\"مصحف رواية البزي عن ابن كثير\",\"url\":\"http://www.alwa7y.com/keraat/bazzy/\",\"hasInfo\":true,\"infoPages\":96},{\"name\":\"dory1\",\"pages\":604,\"arabicName\":\"مصحف رواية الدوري عن أبي عمرو\",\"url\":\"http://www.alwa7y.com/keraat/dory1/\",\"hasInfo\":true,\"infoPages\":98},{\"name\":\"sosy\",\"pages\":604,\"arabicName\":\"مصحف رواية السوسي عن أبي عمرو\",\"url\":\"http://www.alwa7y.com/keraat/sosy/\",\"hasInfo\":true,\"infoPages\":107},{\"name\":\"shoba\",\"pages\":604,\"arabicName\":\"مصحف رواية شعبة عن عاصم\",\"url\":\"http://www.alwa7y.com/keraat/kaloon/\",\"hasInfo\":false},{\"name\":\"7afs\",\"pages\":604,\"arabicName\":\"مصحف رواية حفص عن عاصم\",\"url\":\"http://www.alwa7y.com/keraat/7afs/\",\"hasInfo\":false}]</value>
+    </entry>
+</defaultsMap>

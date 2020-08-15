@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_splashScreenFragment">
+    <fragment
+        android:id="@+id/nav_homeFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/nav_searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productCategoriesFragment"
+            app:destination="@id/nav_productCategoriesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/nav_cartFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_userProfileFragment"
+            app:destination="@id/nav_userProfileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_login_process"
+            app:destination="@id/login_process" />
+        <deepLink
+            android:id="@+id/deepLink"
+            android:autoVerify="true"
+            app:uri="http://www.yalladealz.com" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productCategoryFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ProductCategoryFragment"
+        android:label="fragment_product_category"
+        tools:layout="@layout/fragment_product_category">
+        <action
+            android:id="@+id/action_productCategoryFragment_to_subCategoryFragment"
+            app:destination="@id/nav_subCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_subCategoryFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.SubCategoryFragment"
+        android:label="fragment_sub_category"
+        tools:layout="@layout/fragment_sub_category">
+        <action
+            android:id="@+id/action_subCategoryFragment_to_dealsDetailsActivity"
+            app:destination="@id/nav_dealsDetailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cartFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.cartviewpager.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_dealsDetailsActivity"
+            app:destination="@id/nav_dealsDetailsActivity" />
+        <action
+            android:id="@+id/action_cartFragment_to_navigation"
+            app:destination="@id/paymentProcess" />
+        <action
+            android:id="@+id/action_cartFragment_to_thankyouDialog"
+            app:destination="@id/nav_thankyouDialogFragment"/>
+    </fragment>
+    <dialog
+        android:id="@+id/nav_thankyouDialogFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ThankyouDialogFragment"
+        android:label="fragment_thankyou_dialog"
+        tools:layout="@layout/fragment_thankyou_dialog" />
+    <fragment
+        android:id="@+id/nav_searchFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_dealsDetailsActivity"
+            app:destination="@id/nav_dealsDetailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_userProfileFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile">
+        <action
+            android:id="@+id/action_userProfileFragment_to_detailsFragment"
+            app:destination="@id/nav_detailsFragment" />
+        <action
+            android:id="@+id/action_userProfileFragment_to_orderHistoryFragment"
+            app:destination="@id/nav_orderHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productCategoriesFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ProductCategoriesFragment"
+        android:label="fragment_product_categories"
+        tools:layout="@layout/fragment_product_categories">
+        <action
+            android:id="@+id/action_productCategoriesFragment_to_productCategoryFragment"
+            app:destination="@id/nav_productCategoryFragment" />
+    </fragment>
+    <navigation
+        android:id="@+id/login_process"
+        app:startDestination="@id/nav_loginFragment">
+        <fragment
+            android:id="@+id/nav_loginFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.LoginFragment"
+            android:label="fragment_login"
+            tools:layout="@layout/fragment_login">
+            <action
+                android:id="@+id/action_loginFragment_to_registerFragment"
+                app:destination="@id/nav_registerFragment"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+                app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_registerFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.RegisterFragment"
+            android:label="fragment_register"
+            tools:layout="@layout/fragment_register">
+            <action
+                android:id="@+id/action_nav_registerFragment_to_nav_verificationCode"
+                app:destination="@id/nav_verificationCode" />
+            <action
+                android:id="@+id/action_nav_registerFragment_to_nav_loginFragment"
+                app:destination="@id/nav_loginFragment" />
+        </fragment>
+        <action
+            android:id="@+id/action_global_homeFragment"
+            app:destination="@id/nav_homeFragment" />
+        <fragment
+            android:id="@+id/nav_verificationCode"
+            android:name="com.yalladealz.userapp.ui.fragments.VerificationCode"
+            android:label="fragment_verification_code"
+            tools:layout="@layout/fragment_verification_code">
+            <argument
+                android:name="code"
+                app:argType="integer" />
+        </fragment>
+    </navigation>
+    <activity
+        android:id="@+id/nav_dealsDetailsActivity"
+        android:name="com.yalladealz.userapp.ui.activities.DealsDetailsActivity"
+        android:label="activity_deals_details"
+        tools:layout="@layout/activity_deals_details">
+        <argument
+            android:name="deal_id"
+            app:argType="string" />
+        <argument
+            android:name="option_id"
+            app:argType="string" />
+    </activity>
+    <fragment
+        android:id="@+id/nav_detailsFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ProfilePageFragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_detailsFragment_to_editeDetailsFragment"
+            app:destination="@id/nav_editeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_editeDetailsFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ProfilePageFragments.EditeDetailsFragment"
+        android:label="fragment_edite_details"
+        tools:layout="@layout/fragment_edite_details" />
+    <fragment
+        android:id="@+id/nav_orderHistoryFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.ProfilePageFragments.OrderHistoryFragment"
+        android:label="fragment_order_history"
+        tools:layout="@layout/fragment_order_history" />
+    <navigation
+        android:id="@+id/paymentProcess"
+        app:startDestination="@id/nav_paymentMFragment">
+        <fragment
+            android:id="@+id/nav_visaFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.VisaFragment"
+            android:label="VisaFragment">
+            <action
+                android:id="@+id/action_visaFragment_to_cartFragment"
+                app:destination="@id/nav_cartFragment"/>
+        </fragment>
+        <fragment
+            android:id="@+id/nav_fawryFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.FawryFragment"
+            android:label="FawryFragment">
+            <action
+                android:id="@+id/action_fawryFragment_to_visaFragment"
+                app:destination="@id/nav_visaFragment"/>
+            <action
+                android:id="@+id/action_fawryFragment_to_thankyouDialogFragment"
+                app:destination="@id/nav_thankyouDialogFragment" />
+            <argument
+                android:name="money"
+                app:argType="integer" />
+            <action
+                android:id="@+id/action_fawryFragment_to_cartFragment"
+                app:destination="@id/nav_cartFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_paymentMFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.PaymentMFragment"
+            android:label="fragment_payment_m"
+            tools:layout="@layout/fragment_payment_m">
+            <action
+                android:id="@+id/action_paymentMFragment_to_acceptFragment"
+                app:destination="@id/nav_acceptFragment" />
+            <action
+                android:id="@+id/action_paymentMFragment_to_fawryFragment"
+                app:destination="@id/nav_fawryFragment" />
+            <action
+                android:id="@+id/action_paymentMFragment_to_amanFragment"
+                app:destination="@id/nav_amanFragment" />
+            <action
+                android:id="@+id/action_paymentMFragment_to_cashCollectionFragment"
+                app:destination="@id/nav_cashCollectionFragment" />
+            <action
+                android:id="@+id/action_paymentMFragment_to_mhfztyFragment"
+                app:destination="@id/nav_mhfztyFragment" />
+            <action
+                android:id="@+id/action_paymentMFragment_to_smartWalletFragment"
+                app:destination="@id/nav_smartWalletFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_acceptFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.AcceptFragment"
+            android:label="AcceptFragment">
+            <action
+                android:id="@+id/action_acceptFragment_to_cartFragment"
+                app:destination="@id/nav_cartFragment"/>
+            <argument
+                android:name="money"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_smartWalletFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.SmartWalletFragment"
+            android:label="SmartWalletFragment">
+            <action
+                android:id="@+id/action_smartWalletFragment_to_cartFragment"
+                app:destination="@id/nav_cartFragment"/>
+            <action
+                android:id="@+id/action_smartWalletFragment_to_thankyouDialogFragment"
+                app:destination="@id/nav_thankyouDialogFragment" />
+            <argument
+                android:name="money"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_amanFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.AmanFragment"
+            android:label="fragment_aman"
+            tools:layout="@layout/fragment_fawry">
+            <action
+                android:id="@+id/action_amanFragment_to_thankyouDialogFragment"
+                app:destination="@id/nav_thankyouDialogFragment" />
+            <argument
+                android:name="money"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_cashCollectionFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.CashCollectionFragment"
+            android:label="fragment_cash_collection"
+            tools:layout="@layout/fragment_cash_collection">
+            <action
+                android:id="@+id/action_cashCollectionFragment_to_thankyouDialogFragment"
+                app:destination="@id/nav_thankyouDialogFragment" />
+            <action
+                android:id="@+id/action_cashFragment_to_cartFragment"
+                app:destination="@id/nav_cartFragment"/>
+            <argument
+                android:name="money"
+                app:argType="integer" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_mhfztyFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.MhfztyFragment"
+            android:label="fragment_mhfzty"
+            tools:layout="@layout/fragment_mhfzty">
+            <action
+                android:id="@+id/action_mhfztyFragment_to_thankyouDialogFragment"
+                app:destination="@id/nav_thankyouDialogFragment" />
+            <argument
+                android:name="money"
+                app:argType="integer" />
+        </fragment>
+        <dialog
+            android:id="@+id/nav_thankyouDialogFragment"
+            android:name="com.yalladealz.userapp.ui.fragments.ThankyouDialogFragment"
+            android:label="fragment_thankyou_dialog"
+            tools:layout="@layout/fragment_thankyou_dialog" />
+<!--        <navigation-->
+<!--            android:id="@+id/nav_visaActivity"-->
+<!--            app:startDestination="@id/nav_visaActivity">-->
+<!--            <activity-->
+<!--                android:id="@+id/nav_visaActivity"-->
+<!--                android:name="com.yalladealz.userapp.ui.activities.VisaActivity"-->
+<!--                android:label="activity_visa2"-->
+<!--                tools:layout="@layout/activity_visa2">-->
+<!--                <argument-->
+<!--                    android:name="money"-->
+<!--                    app:argType="integer" />-->
+<!--            </activity>-->
+<!--            <action-->
+<!--                android:id="@+id/action_visaActivity_to_cartFragment"-->
+<!--                app:destination="@id/nav_cartFragment" />-->
+<!--            <argument-->
+<!--                android:name="money"-->
+<!--                app:argType="integer" />-->
+<!--        </navigation>-->
+<!--        <action-->
+<!--            android:id="@+id/action_global_homeFragment"-->
+<!--            app:destination="@id/nav_homeFragment"-->
+<!--            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />-->
+    </navigation>
+    <fragment
+        android:id="@+id/nav_splashScreenFragment"
+        android:name="com.yalladealz.userapp.ui.fragments.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen">
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/nav_homeFragment" />
+    </fragment>
+    <navigation
+        android:id="@+id/nav_maps"
+        app:startDestination="@id/nav_mapsActivity">
+        <activity
+            android:id="@+id/nav_mapsActivity"
+            android:name="com.yalladealz.userapp.ui.activities.MapsActivity"
+            android:label="activity_maps"
+            tools:layout="@layout/activity_maps" />
+    </navigation>
+    <fragment
+        android:id="@+id/nav_verificationCode"
+        android:name="com.yalladealz.userapp.ui.fragments.VerificationCode"
+        android:label="fragment_verification_code"
+        tools:layout="@layout/fragment_verification_code" />
+</navigation>

@@ -1,0 +1,9 @@
+1tSa6uxz2nQeR/6BqV3rrg==9910000009043099100000090430PAYATFAWRY10.0084c7d536628349b2a698678f94ff9b4b
+
+{"merchantCode":"1tSa6uxz2nQeR/6BqV3rrg==", "merchantRefNum":"99100000090430", "customerProfileId":"99100000090430", "customerMobile":"01000000200", "customerEmail":"77@test.com", "paymentMethod":"PAYATFAWRY", "amount":10.00, "currencyCode":"EGP", "description":"the charge request description", "paymentExpiry":151655487407997, "chargeItems":[ { "itemId":"6b4d3953a7cb48ae9dacd75093d03ba5", "description":"apple iphoneX", "price":50.00, "quantity":1 } ], "signature":"d94f4440afb8852605cd10e105aec82efa31326aaa6b4f648ff7f33e55910676"}
+
+tg5cr853
+
+1tSa6uxz2nQeR/6BqV3rrg==9910000009043084c7d536628349b2a698678f94ff9b4b
+
+6635fa533475306357e10a79ca0956cbaf4bafe298279ebcd0ff3a1feb45fe9c

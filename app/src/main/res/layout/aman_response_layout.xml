@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_payment_code_is"
+        android:textSize="@dimen/_16ssp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/codeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="123456"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:layout_below="@id/text1"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/red_500"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/it_will_be_expired_in_24_hours"
+        android:layout_below="@id/codeText"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/expired"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_8sdp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:text="@string/ok"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/expired"
+        android:id="@+id/ok"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+</RelativeLayout>
